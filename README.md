@@ -1,6 +1,6 @@
 # PIC32CXBZ2 WBZ451HPE COMBINED INTERFACE WITH E-PAPER DISPLAY
 
-<img src="Docs/IoT-Made-Easy-Logo.png" width=100>
+<img src="docs/IoT-Made-Easy-Logo.png" width=100>
 
 
 > "IoT Made Easy!" 
