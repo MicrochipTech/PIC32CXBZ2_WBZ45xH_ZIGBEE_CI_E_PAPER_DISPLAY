@@ -32,7 +32,7 @@ Checkout the <a href="https://microchipsupport.force.com/s/" target="_blank">Tec
 
 ## 1. Introduction<a name="step1">
 
-This example application enables us to develop a Zigbee Combined interface application along with E-Paper Bundle 2 Display in the WBZ451HPE Curiosity board. The [Multisensor](https://github.com/MicrochipTech/PIC32CXBZ2_WBZ45x_ZIGBEE_MULTISENSOR_TEMPHUM13_CLICK) device joins the zigbee network and reports the temperature & humidity data to the Combined Interface and CI displays it on the E-PAPER display.
+This application demonstrates the integration of the E-Paper Display and Zigbee (Combined Interface) stack on the PIC32CxBZ2/WBZ451H device. On startup the Combined Interface starts a centralized Zigbee network allowing other devices to join. The [Multisensor](https://github.com/MicrochipTech/PIC32CXBZ2_WBZ45x_ZIGBEE_MULTISENSOR_TEMPHUM13_CLICK) device joins the Zigbee network and reports the temperature & humidity data to the Combined Interface and CI displays it on the E-PAPER display.
 
 ![](docs/Zigbee_CI.png)
 
@@ -113,7 +113,7 @@ This example application enables us to develop a Zigbee Combined interface appli
 
 ![Wolfcrypt library](docs/Wolfcrypt_library.png)
 
-**Step 6** - From Device resources, go to Harmony->Peripherals->SERCOM and selct SERCOM2. Right click on the "⬦" on SPI and select SPI Driver. Accept Dependencies or satisfiers, select "Yes". The SERCOM2 configuration is depicted as follows.
+**Step 6** - From Device resources, go to Harmony->Peripherals->SERCOM and select SERCOM2. Right click on the "⬦" on SPI and select SPI Driver. Accept Dependencies or satisfiers, select "Yes". The SERCOM2 configuration is depicted as follows.
 
 ![SERCOM1 SPI](docs/SERCOM2.png)
 
@@ -139,7 +139,7 @@ CLICK_EINK_BUNDLE_BSY
 
 **Step 9** - [Generate](https://onlineDocs.microchip.com/pr/GUID-A5330D3A-9F51-4A26-B71D-8503A493DF9C-en-US-1/index.html?GUID-9C28F407-4879-4174-9963-2CF34161398E) the code.
 
-**Step 10** - From the unzipped folder copy the folder click_routines(which contains the eink_bundle.h, eink_bundle_font.h, eink_bundle_image.h, eink_bundle.c,  eink_bundle_font.c, eink_bundle_image.c) to the folder firmware/src under your MPLAB Harmony v3 application project and add the Header (eink_bundle.h, eink_bundle_font.h, eink_bundle_image.h) and Source file (eink_bundle.c, eink_bundle_font.c, eink_bundle_image.c).
+**Step 10** - From the unzipped folder copy the folder click_routines to the folder firmware->src under your MPLAB Harmony v3 application project.
 
 - In the project explorer, Right click on folder Header Files and add a sub folder click_routines by selecting “Add Existing Items from Folders…”
 
