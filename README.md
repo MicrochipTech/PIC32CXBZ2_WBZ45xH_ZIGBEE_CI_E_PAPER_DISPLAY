@@ -107,11 +107,11 @@ This example application enables us to develop a Zigbee Combined interface appli
 
 **Step 4** - The SERCOM0 UART configuration is depicted as follows.
 
-![SERCOM0 USART](docs/Sercom0_configuration.PNG)
+![SERCOM0 USART](docs/Sercom0_configuration.png)
 
 **Step 5** - Select Wolfcrypt library and make sure that "Support random number generation" box is unchecked as shown below.
 
-![Wolfcrypt library](docs/Wolfcrypt_library.PNG)
+![Wolfcrypt library](docs/Wolfcrypt_library.png)
 
 **Step 6** - From Device resources, go to Harmony->Peripherals->SERCOM and selct SERCOM2. Right click on the "⬦" on SPI and select SPI Driver. Accept Dependencies or satisfiers, select "Yes". The SERCOM2 configuration is depicted as follows.
 
